@@ -21,16 +21,16 @@ body {
     text-align: center; /*Temporary*/
 }
 
-#videoBox {
+#videoBoxContainer {
 
 }
-.videoPlaceHolder {
+.videoBox {
     height: 384px;
     width: 49.9%;
     background-color: #222222;
     display: inline-block;
 }
-.videoPlaceHolder iframe {
+.videoBox iframe {
     width: 100%;
     height: 100%;
 }

@@ -23,7 +23,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 // }
 
-function loadVideo(playerVideoId, viewer) {
+function loadVideo(viewer, playerVideoId) {
     // body...
 }
 function playVideo(viewer) {
@@ -39,3 +39,7 @@ function cueVideo(viewer, time) {
 function pauseVideo(viewer) {
     //body...
 }
+function killVideo(viewer) {
+    // body...
+}
+function setVideoVolume(viewer, volume)
