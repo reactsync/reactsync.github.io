@@ -22,9 +22,10 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
     // }
 
 // }
-
+var player1;
+var player2;
 function loadVideo(viewer, playerVideoId) {
-    // body...
+    player1 = new YT.Player(viewer, {videoId: playerVideoId});
 }
 function playVideo(viewer) {
     // body...
@@ -42,4 +43,4 @@ function pauseVideo(viewer) {
 function killVideo(viewer) {
     // body...
 }
-function setVideoVolume(viewer, volume)
+function setVideoVolume(viewer, volume) {}
